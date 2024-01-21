@@ -1,0 +1,28 @@
+//vendors
+@import './vendors/visually-hidden';
+
+//base
+@import './base/variables';
+@import './base/reset';
+@import './base/common';
+
+//themes
+@import './themes/light-theme';
+@import './themes/dark-theme';
+
+//components
+@import './components/animation';
+@import './components/button';
+@import './components/social-networks';
+@import './components/slider';
+
+//layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/price';
+@import './layouts/achievement';
+@import './layouts/barbers';
+@import './layouts/gallery';
+@import './layouts/booking-contacts';
+@import './layouts/footer';

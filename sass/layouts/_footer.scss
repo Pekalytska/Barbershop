@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--additional-background-color);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social-link {
+    padding-bottom: 56px;
+    padding-top: 56px;
+  }
+}
+
+.copyright {
+  margin: 0;
+  color: var(--main-dark-theme-color);
+}
