@@ -1,0 +1,36 @@
+.about {
+  &__container {
+    display: flex;
+  }
+
+  &__img-list {
+    display: flex;
+  }
+
+  &__img-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__wrapper {
+    padding-left: 64px;
+    padding-right: 36px;
+  }
+
+  &__suggest {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__description {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.28px;
+  }
+
+  &__button {
+    color: var(--main-light-theme-color);
+  }
+}

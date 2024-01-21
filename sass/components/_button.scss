@@ -1,0 +1,32 @@
+.button {
+  min-width: 160px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 1px solid var(--accent-color);
+
+  color: var(--additional-dark-theme-color);
+  background-color: inherit;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  transition: background-color 500ms ease-out;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &__modal {
+    animation: shake-btn 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  }
+
+  &__send {
+    display: block;
+  }
+}

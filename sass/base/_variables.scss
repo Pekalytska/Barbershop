@@ -1,0 +1,21 @@
+:root {
+    /* background-color */
+    --main-background-color: #ffffff;
+    --additional-background-color: #f7f7f7;
+    --booking-background-color: #191c26;
+    --price-background-color: #111319;
+
+    /* color */
+    --main-light-theme-color: #303030;
+    --additional-light-theme-color: #555555;
+    --main-dark-theme-color: #9da4bd;
+    --additional-dark-theme-color: #ffffff;
+    --booking-color: rgba(157, 164, 189, 0.4);
+    --slider-disable-color: rgba(157, 164, 189, 0.6);
+    --price-underline-color: rgba(157, 164, 189, 0.12);
+    --accent-color: #ff6c00;
+
+    /* text */
+    --main-font-family: "Open Sans", sans-serif;
+    --title-font-family: "Raleway", sans-serif;
+}

@@ -1,0 +1,54 @@
+@keyframes shake-btn {
+
+    0%,
+    18% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    2%,
+    10% {
+        transform: rotate(8deg);
+    }
+
+    4%,
+    12% {
+        transform: rotate(-8deg);
+    }
+
+    6%,
+    14% {
+        transform: rotate(6deg);
+    }
+
+    8%,
+    16% {
+        transform: rotate(-6deg);
+    }
+}
+
+@keyframes appear-hero-title {
+    0% {
+        transform: translate(-400px, 200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+/*@keyframes slide-in-elliptic-top-fwd {
+    0% {
+        transform: translateY(-600px) rotateX(-30deg) scale(0);
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0) rotateX(0) scale(1);
+        transform-origin: 50% 1400px;
+        opacity: 1;
+    }
+}*/

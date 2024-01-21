@@ -1,0 +1,63 @@
+.hero {
+  &__container {
+    display: flex;
+  }
+
+  &__left-side {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    width: 100px;
+  }
+
+  &__social-networks {
+    transform: translateY(70px) rotate(-90deg);
+    transform-origin: left top;
+  }
+
+  &__right-side {
+    position: relative;
+
+    display: flex;
+    flex-grow: 1;
+
+    background-image: linear-gradient(
+        rgba(25, 28, 38, 0.2),
+        rgba(25, 28, 38, 0.2)
+      ),
+      url(../images/slider/slider\ 1.jpg);
+    background-size: cover;
+    background-color: var(--booking-background-color);
+  }
+
+  &__group {
+    padding-top: 272px;
+    padding-bottom: 206px;
+    padding-left: 98px;
+  }
+
+  &__pre-title {
+    animation: appear-hero-title 500ms ease-out;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-family: var(--title-font-family);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 3.6px;
+
+    animation: appear-hero-title 1000ms ease-out;
+  }
+
+  &__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 360px;
+
+    animation: appear-hero-title 1500ms ease-out;
+  }
+}

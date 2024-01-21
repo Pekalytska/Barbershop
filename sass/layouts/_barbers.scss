@@ -1,0 +1,51 @@
+.barbers {
+  background-color: var(--additional-background-color);
+
+  &__title {
+    margin-bottom: 44px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__name {
+    margin-top: 0;
+    margin-bottom: 8px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  &__profession {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    color: var(--accent-color);
+
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.28px;
+  }
+}
+
+.barbers__item {
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.barbers__img {
+  margin-bottom: 30px;
+  transform: scale(1);
+
+  transition: transform 400ms ease-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+}

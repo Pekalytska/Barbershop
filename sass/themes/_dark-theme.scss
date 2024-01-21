@@ -1,0 +1,11 @@
+.dark-theme {
+    color: var(--main-dark-theme-color);
+}
+
+.pre-title--dark-theme::before {
+    background-color: var(--slider-disable-color);
+}
+
+.title--dark-theme {
+    color: var(--additional-dark-theme-color);
+}
