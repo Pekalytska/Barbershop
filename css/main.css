@@ -283,6 +283,28 @@ body {
   color: var(--slider-disable-color);
 }
 
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-icon__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--additional-dark-theme-color);
+  border-radius: 50%;
+  transition: fill 500ms ease-out;
+}
+.social-icon__link:hover, .social-icon__link:focus {
+  fill: var(--accent-color);
+}
+
 .header {
   position: absolute;
   z-index: 1;
